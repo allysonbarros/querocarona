@@ -6,7 +6,7 @@ gem 'rails', '3.2.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 #Mongo
-gem 'mongoid', '~> 3.0.0'
+gem 'mongoid', '~> 3.0.14'
 gem 'bson_ext'
 
 gem 'nested_form', :git => 'git://github.com/ryanb/nested_form.git'
