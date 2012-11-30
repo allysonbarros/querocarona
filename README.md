@@ -9,5 +9,5 @@ cd /querocarona
 
 <b>2° Fazer o fork do projeto</b>
 <pre>
-  git clone https://github.com/candidosales/querocarona.git
+git clone https://github.com/candidosales/querocarona.git
 </pre>
