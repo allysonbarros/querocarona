@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  initial: MyString
+  destination: MyString
+  created_at: 2012-11-29 03:24:08
+
+two:
+  initial: MyString
+  destination: MyString
+  created_at: 2012-11-29 03:24:08

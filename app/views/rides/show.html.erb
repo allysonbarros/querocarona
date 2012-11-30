@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+<p>
+  <b>Driver:</b>
+  <%= @ride.driver.name %>
+</p>
+<p>
+  <b>Requestor:</b>
+  <%= @ride.requestor.name %>
+</p>
+<p>
+  <b>Initial:</b>
+  <%= @ride.initial %>
+</p>
+
+<p>
+  <b>Destination:</b>
+  <%= @ride.destination %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%= @ride.created_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_ride_path(@ride) %> |
+<%= link_to 'Back', rides_path %>
