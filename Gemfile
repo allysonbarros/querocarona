@@ -11,7 +11,6 @@ gem 'bson_ext'
 
 gem 'nested_form', :git => 'git://github.com/ryanb/nested_form.git'
 gem 'simple_form'
-gem "menu_builder", "~> 0.4.3"
 
 # Gems used only for assets and not required
 # in production environments by default.
