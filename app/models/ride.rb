@@ -7,4 +7,7 @@ class Ride
   belongs_to :driver, class_name: "User"
   belongs_to :requestor, class_name: "User"
 
+  validates_presence_of :driver, :requestor
+  validates_associated :driver, :requestor
+
 end

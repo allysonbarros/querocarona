@@ -24,6 +24,49 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <%= yield %>
+  <nav class="top-bar">
+    <ul>
+      <li class="name"><h1><a href="#">Quero Carona</a></h1></li>
+      <li class="toggle-topbar"><a href="#"></a></li>
+    </ul>
+
+    
+  <section>
+      <ul class="right">
+        <li class="has-dropdown">
+          <a href="#">Link</a>
+
+          <ul class="dropdown"><li class="title back js-generated" style=""><h5><a href="#">Link</a></h5></li>
+            <li><a href="#">Dropdown Link</a></li>
+            <li><a href="#">Dropdown Link</a></li>
+            <li><a href="#">Dropdown Link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+</nav>
+  <%= flash_messages %>
+  <aside class="two columns">
+    <ul class="nav-bar vertical">
+      <li class="has-flyout">
+        <%= link_to "User", users_path %>
+        <a href="#" class="flyout-toggle"><span> </span></a>
+        <ul class="flyout">
+          <li><%= link_to "Add", new_user_path %></li>
+        </ul>
+      </li>
+      <li class="has-flyout">
+        <%= link_to "Ride", rides_path %>
+        <a href="#" class="flyout-toggle"><span> </span></a>
+        <ul class="flyout">
+          <li><%= link_to "Add", new_ride_path %></li>
+        </ul>
+      </li>
+    </ul>
+  </aside>
+  <div class="ten columns">
+  	<%= yield %>
+  </div>
+
 </body>
 </html>

@@ -36,7 +36,7 @@ class RidesController < ApplicationController
   # PUT /rides/1
   # PUT /rides/1.json
   def update
-    @ride = Ride.find(params[:id])
+    @ride = Ride.find params[:id]
     flash[:notice] = 'Ride was successfully updated.' if @ride.update_attributes(params[:ride])
     respond_with @ride
   end

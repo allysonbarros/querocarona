@@ -11,19 +11,19 @@
     </div>
   <% end %>
   <div class="field">
-      <%= f.label :driver %><br />
-      <%= f.collection_select :driver, User.all, :id, :name %>
+      <%= f.label :driver_id %>
+      <%= f.collection_select :driver_id, User.all, :id, :name %>
   </div>
   <div class="field">
-      <%= f.label :requestor %><br />
-      <%= f.collection_select :requestor, User.all, :id, :name %>
+      <%= f.label :requestor_id %>
+      <%= f.collection_select :requestor_id, User.all, :id, :name %>
   </div>
   <div class="field">
-    <%= f.label :initial %><br />
+    <%= f.label :initial %>
     <%= f.text_field :initial %>
   </div>
   <div class="field">
-    <%= f.label :destination %><br />
+    <%= f.label :destination %>
     <%= f.text_field :destination %>
   </div>
   <div class="actions">
