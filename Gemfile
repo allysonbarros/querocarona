@@ -9,7 +9,7 @@ gem 'rails', '3.2.9'
 gem 'mongoid', '~> 3.0.14'
 gem 'bson_ext'
 
-gem 'nested_form', :git => 'git://github.com/ryanb/nested_form.git'
+gem 'nested_form'
 gem 'simple_form'
 
 # Gems used only for assets and not required
