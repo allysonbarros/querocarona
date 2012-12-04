@@ -1,11 +1,9 @@
 Quero Carona
 ===========
-
-<b>1° Criar uma pasta com o nome do projeto</b>
-<pre>
-mkdir querocarona
-cd /querocarona
-</pre>
+<b>1° Instalação do Ruby, RVM, Rails e Mongo no Ubuntu 12.10</b>
+<p>
+http://candidosg.com/2012/11/07/ruby-rvm-rails-mongodb-ubuntu-12-10/
+</p>
 
 <b>2° Fazer o fork do projeto, em seguida execute o bundle para instalar as dependências</b>
 <pre>
